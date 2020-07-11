@@ -46,16 +46,40 @@
 
             <form>
                 <div>
-                    <label for="name">Name:</label><input type="text" placeholder="Enter your name" id="name" name="name">
+                    <label for="name">Name:</label>
+                    <input type="text" placeholder="Enter your name" id="name" name="name">
                 </div>
+
                 <div>
-                    <label for="email">Email:</label><input type="email" placeholder="Enter your email" id="email" name="email">
+                    <label for="email">Email:</label>
+                    <input type="email" placeholder="Enter your email" id="email" name="email">
                 </div>
+
                 <div>
-                    <label for="message">Message:</label><textarea cols="30" rows="5" id="message" name="message"></textarea>
+                    <label for="message">Message:</label>
+                    <textarea cols="30" rows="5" id="message" name="message"></textarea>
                 </div>
+
                 <div>
-                    <p>Subscribe to future offres by:</p>
+                    <label for="subject">Subject:</label>
+                    <select id="subject">
+                        <optgroup label="Product issues">
+                            <option value="returns">Returns</option>
+                            <option value="faulty_items">Faulty item</option>
+                        </optgroup>
+                        <optgroup label="Delivery">
+                            <option value="delivery">Delivery Info</option>
+                            <option value="order_tracking">Tracking my order</option>
+                        </optgroup>
+                        <optgroup label="Other">
+                            <option value="advice">Advice</option>
+                            <option value="other">Other</option>
+                        </optgroup>
+                    </select>
+                </div>
+
+                <div>
+                    <p>Subscribe to future offers by:</p>
                     <label for="newsletter">Newsletter</label>
                     <input type="checkbox" id="newsletter" name="subscribe" value="newsletter">
                     
@@ -65,6 +89,7 @@
                     <label for="post">Post</label>
                     <input type="checkbox" id="post" name="subscribe" value="post">
                 </div>
+
                 <div>
                     <p>How would you like for us to respond?</p>
                     <label for="phoneResponse">Phone</label>
