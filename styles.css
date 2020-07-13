@@ -13,3 +13,12 @@ header, footer {
     background: #333a40;
     color: white;
 }
+
+.product {
+    border: 1px solid grey;
+    width: 200px;
+}
+
+img {
+    max-width: 100%;
+}
