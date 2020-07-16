@@ -7,6 +7,7 @@ body {
     background: white;
     max-width: 1000px;
     margin: 0 auto;
+    color: rgb(49, 46, 46); 
 }
 
 header, footer {
@@ -22,6 +23,15 @@ ul {
 li {
     list-style: none;
     line-height: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #0369e9;
 }
 
 header li {
@@ -61,4 +71,9 @@ img {
 .button {
     padding: 10px;
     display: inline-block;
+}
+
+.button:last-of-type {
+    background: #0e69e9;
+    color: white;
 }
