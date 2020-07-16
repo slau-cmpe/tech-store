@@ -14,9 +14,16 @@ header, footer {
     color: white;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 .product {
     border: 1px solid grey;
     width: 200px;
+    margin: 5px;
+    padding: 5px;
 }
 
 img {
