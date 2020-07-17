@@ -77,3 +77,13 @@ img {
     background: #0e69e9;
     color: white;
 }
+
+/* Product detail page */
+.product-detail {
+    width: 660px;
+}
+
+.product-detail img {
+    max-width: 50%;
+    float: left;
+}
