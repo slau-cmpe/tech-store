@@ -87,3 +87,24 @@ img {
     max-width: 50%;
     float: left;
 }
+
+/* Contact us */
+form {
+    padding: 10px;
+    margin: 10px 0;
+    width: 600px;
+}
+
+form > div {
+    margin: 10px 0;
+}
+
+.inline label{
+    display: inline-block;
+    width: 100px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    padding: 10px;
+    width: 400px;
+}
