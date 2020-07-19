@@ -5,7 +5,6 @@ html {
 body {
     font-family: 'Barlow', sans-serif;
     background: white;
-    /* max-width: 80vw; */    
     margin: 0 auto;
     color: rgb(49, 46, 46); 
     text-align: center;
@@ -49,22 +48,8 @@ header h1, nav {
 }
 
 header h1 {
-    /* width: 65%; */
     width: 100%;
 }
-
-/* main {
-    width: 68%;
-    display: inline-block;
-    padding: 10px;
-} */
-
-/* aside {
-    width: 27%;
-    display: inline-block;
-    vertical-align: top;
-    padding: 10px;
-} */
 
 .product {
     box-sizing: border-box;
@@ -152,5 +137,46 @@ tr:hover {
     .product {
         display: inline-block;
         width: 48%;
+    }
+}
+
+@media (min-width: 1000px) {
+    body {
+        text-align: left;
+    }
+
+    header h1 {
+        width: 60%;
+    }
+
+    main {
+        width: 68%;
+        display: inline-block;
+        padding: 10px;
+    }
+
+    aside {
+        width: 27%;
+        display: inline-block;
+        vertical-align: top;
+        padding: 10px;
+    }
+
+    input[type="search"] {
+        width: 20%;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        max-width: 80vw;   
+    }
+
+    .product {
+        width: 30%;
+    }
+
+    input[type="search"] {
+        width: 20%;
     }
 }
